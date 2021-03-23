@@ -1,18 +1,14 @@
 const FILES_TO_CACHE = [
     '/',
     '/index.html',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
+    '/icons/icon-192x192.png',
+    '/icons/icon-512x512.png',
+    '/style.css',
+    '/index.js'
 ]
 
-const PRECACHE = ''
-const RUNTIME = ''
+const PRECACHE = 'precache-v1'
+const RUNTIME = 'runtime'
 
 self.addEventListener('install', (event) => {
     event.waitUntil(
